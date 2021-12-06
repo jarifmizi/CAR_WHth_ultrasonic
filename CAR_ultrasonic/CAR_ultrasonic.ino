@@ -43,5 +43,6 @@ void loop()
      motor2.run(FORWARD);
      delay(10);
      motor2.run(RELEASE);
+     motor1.setSpeed(200);
      }
 }
